@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "187575578962",
+    "firebase_url": "https://bfriendsstarter.firebaseio.com",
+    "project_id": "bfriendsstarter",
+    "storage_bucket": "bfriendsstarter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187575578962:android:389b045e9aff2c52",
+        "android_client_info": {
+          "package_name": "com.bfriendsstarter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187575578962-in5ifo2up7q3sjibno5g9hsvd391k3j3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbxWt8t2GfeHK_E_WgW6JkXKIRqIBCXAk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
