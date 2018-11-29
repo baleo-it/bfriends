@@ -12,33 +12,10 @@ const styles = StyleSheet.create({
 })
 
 class App extends Component {
-  state = {
-    touchPoints: null,
-    imageUri: null,
-  }
-
-  updateTouchPoints = ({ touchPoints, imageUri }) => {
-    this.setState({ touchPoints, imageUri })
-  }
-
-  resetApp = () => {
-    this.setState({ touchPoints: null, imageUri: null })
-  }
-
   render() {
-    const { touchPoints, imageUri } = this.state
-
     return (
       <SafeAreaView style={styles.container}>
-        { touchPoints && imageUri ? (
-          <AddContactScreen
-            onViewPress={this.resetApp}
-            touchPoints={touchPoints}
-            uri={imageUri}
-          />
-        ) : (
-          <CaptureScreen updateTouchPoints={this.updateTouchPoints} />
-        )}
+          <CaptureScreen />
       </SafeAreaView>
     )
   }
